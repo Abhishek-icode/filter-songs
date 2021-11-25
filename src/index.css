@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.mdiv{
+  background-color: rgb(9, 9, 37);
+}
+
+.hdiv{
+  height: 10vh;
+  background-color: rgb(9, 9, 37);
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.cdiv{
+  display: flex;
+  justify-content: center;
+  min-height: 85vh;
+  background-color: rgb(9, 9, 37);
+  color: white;
+}
+
+.searchbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0.5rem;
+  width: 60vw;
+}
+.mcards{
+  margin: 0.5rem;
+  box-shadow: 2px 2px 3px black;
+}
+
+.inpstyle{
+  background-color: rgb(15, 15, 65);
+  color: white;
+  width: 50%;
+  border-style: none;
+  height: 1.5rem;
+  border-style: none;
+  border-radius: 1rem;
+  padding-left: 0.5rem;
+}
+
+.fdiv{
+  height: 5vh;
+  background-color: rgb(20, 20, 53);
+  color: white;
+}
+
+.line{
+  background-color: #fff;
+  height: 2px;
+
+}
+
+.sdetail{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4px;
+}
