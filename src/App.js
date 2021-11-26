@@ -6,7 +6,7 @@ const App = () => {
 
   const filteritems = (sitems) => {
     const updateditems = Galleries.filter((celms) => {
-      return celms.name.toLowerCase() === sitems.toLowerCase()
+      return celms.name.toLowerCase().includes(sitems.toLowerCase())
     })
 
     if (sitems === "") {
